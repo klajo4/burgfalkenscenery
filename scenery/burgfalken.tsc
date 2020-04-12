@@ -1,5 +1,5 @@
 <[file][][]
-
+//  Modellfliegergruppe Burgfalken Urbach e.V. Scenery - RC7 
 //
 // AIRCRAFT STARTPOSITIONS
 //
@@ -56,20 +56,6 @@
       <[tmvector3d]   [position]      [ -30.0 180.0 -10000.000 ]>
       <[float64]      [angle]         [ -120 ]>
     >
-  >
-
-
-//
-// GLIDER TOW 
-//
-
-  <[string8][startposition][]
-    <[int32]      [sphere]    [ 0 ]>
-    <[tmvector3d] [aircraft]  [ -13.239 4.336 -10000.000 ]> // z=0.278
-    <[float64]    [angle]     [ 45 ]>
-    <[float64]    [radius]    [ 50 ]>
-    <[string8]    [typeflag]  [glider]>
-    <[string8]    [tow]       [yes]>
   >
 
 
