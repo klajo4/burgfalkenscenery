@@ -8,8 +8,8 @@
 
   <[string8][startposition][0]
     <[int32]        [sphere]        [0]>
-    <[tmvector3d]   [aircraft]      [10.0 2.0  -10000.000000]>
-    <[float64]      [angle]         [-120]>
+    <[tmvector3d]   [aircraft]      [0.0 7.0  -10000.000000]>
+    <[float64]      [angle]         [-150.0]>
     <[float64]      [radius]        [50.0]>
     <[string8]      [typeflag]      [airplane]>
   >
@@ -19,19 +19,19 @@
 
   <[string8][startposition][6]
     <[int32]      [sphere]    [ 0 ]>
-    <[tmvector3d]   [aircraft]      [ 5.0 2.0 -10000.000 ]> 
-    <[float64]    [angle]     [ -20 ]>
+    <[tmvector3d]   [aircraft]      [ 0.0 7.0  -10000.000 ]> 
+    <[float64]    [angle]     [ -150.0 ]>
     <[float64]    [radius]    [ 1.1 ]>
     <[string8]    [typeflag]  [heli]>
   >
   
 
-// STARTPOSITION GLIDER 
+// STARTPOSITION GLIDER (Handstart)
 
 <[string8][startposition][0]
     <[int32]        [sphere]        [0]>
-    <[tmvector3d]   [aircraft]      [ 10.0 2.0 -10000.000 ]> 
-    <[float64]      [angle]         [ -120 ]>
+    <[tmvector3d]   [aircraft]      [ 2.0 7.0 -10000.000 ]> 
+    <[float64]      [angle]         [ -150.0 ]>
     <[float64]      [radius]        [ 3.2 ]>
     <[string8]      [typeflag]      [glider]>
     <[string8]      [launcher]      [launcher]>
@@ -41,49 +41,36 @@
 
   <[string8][startposition][1]
     <[int32]      [sphere]         [ 0 ]>    
-    <[tmvector3d]   [aircraft]      [ 20.0 -12.0 -10000.000 ]> 
-    <[float64]      [angle]        [ -120 ]>
+    <[tmvector3d]   [aircraft]      [ 15.0 5.0 -10000.000 ]> 
+    <[float64]      [angle]        [ -150.0 ]>
     <[float64]    [radius]         [ 6 ]>
-    <[string8]      [typeflag]     [glider]>
+    <[string8]      [typeflag]     [glider]>	
     <[string8]      [winch]        [winch]
-      //<[tmvector3d]   [position]   [ -0.983 -3.622 -10000.000 ]>
-      <[tmvector3d]   [position]   [ 20 -10 -10000.000 ]>
-      <[float64]      [angle]         [ -120 ]>
+    <[tmvector3d]   [position]   [ 20 10 -10000.000 ]>
     >
-
-// WINCH DIRECTION
     <[string8]      [pulley]         [pulley]
-      <[tmvector3d]   [position]      [ -30.0 180.0 -10000.000 ]>
+      <[tmvector3d]   [position]      [ -80.0 50.0 -10000.000 ]>
       <[float64]      [angle]         [ -120 ]>
     >
   >
 
 
-//PHOTOSCENERY 
+//PHOTOSCENERY 10
 
   <[string8][photoscene][burgfalken]
     <[string8][sphere][0]
       <[string8]      [textures]       [burgfalken/burgfalken]>
-      <[int32]        [tilex]          [8]>
-      <[int32]        [tiley]          [8]>
-      <[float64]      [radius]         [50000.000000]>
-      <[tmmatrix3f]   [matrix]         [-0.529910 0.848050 -0.002618 -0.848043 -0.529916 -0.003491 -0.004348 0.000370 0.999991]>
+      <[int32]        [tilex]          [8]>     // must match af5-createpano option
+      <[int32]        [tiley]          [8]>     // must match af5-createpano option
+      <[float64]      [radius]         [5000]>          // photo sphere radius
+      <[tmvector3d]   [3ds_angles]     [0.0 0.0 163.0]>  // rotation of photo sphere in degrees
+      <[tmvector3d]   [sphereposition] [0.00 0.00 0.00]>  // position of photo sphere
+      <[tmvector3d]   [viewposition]   [0.00 0.00 1.70]>  // camera lens position
+      <[float64]      [panoeyezoffset] [0.0]>
 
-//Rotation PhotoSphere
-
-      <[tmvector3d]   [sphereposition] [.000000 0.000000 1.50000]>
-
-<[tmvector3d]   [3ds_angles] [90.0000 0.0000 0.0000]>
-
-
-//Offset PhotoSphere
-
-      <[tmvector3d]   [viewposition]   [0.00000 0.000000 1.7000]>
-      <[float64]      [panoeyezoffset] [2.000000]>
 
 //Offset SunPosition
-      //<[tmvector4f]   [lightdirection] [0.40000 0.50000 0.45000 0.0]>
-      <[tmvector4f]   [lightdirection] [-0.1 -0.3 0.4 0.0]>
+	  <[tmvector4f]   [lightdirection] [0.18 -0.3 0.4 0.0]>
 
 //Sky in RGB color
       <[tmvector4f]   [ambient_sky]    [0.085563 0.112658 0.159718 1.0]>
@@ -104,18 +91,18 @@
 //
 
 // POSITION WINDSOCK
- 
-
-<[string8][object_dynamic][]
-    <[string8][name][windsock1]>
-    <[string8][physicsname][windsock1]>
-    <[tmvector3d][position][ -20.25 18.5 6.5 ]>
+   
+  <[string8][object_dynamic][]
+    <[string8][name][windsock3]>
+	<[string8][physicsname][windsock3_rw]>
+	<[tmvector3d][position][ -14.3 0.43 3.0 ]>
   >
 
-<[string8][object_dynamic][]
+  <[string8][object_dynamic][]
     <[string8][name][ribbon]>
     <[string8][physicsname][windsock3_rw]>
-    <[tmvector3d][position][ 0 -10 0]>
+    //<[tmvector3d][position][ 0 -10 0]>
+	<[tmvector3d][position][ 0 -5 0]>
   > 
 
 
@@ -152,10 +139,10 @@
 // 
 
   <[string8][runway][MainRunway]
-    <[tmvector3f][pivot]                [ 40 -20 0.405 ]> 
-    <[tmvector3f][direction]            [ -0.304 0.953 -0.000 ]> 
-    <[tmvector3f][pivot]                [ -3 0 0.393 ]> 
-    <[tmvector3f][direction]            [ 0.304 -0.953 0.000 ]> 
+    <[tmvector3f][pivot]          [ 40 -20 0.405 ]> 
+    <[tmvector3f][direction]      [ -0.304 0.953 -0.000 ]> 
+    <[tmvector3f][pivot]          [ -3 0 0.393 ]> 
+    <[tmvector3f][direction]      [ 0.304 -0.953 0.000 ]> 
   >
 //
 // CONTESTS
@@ -228,8 +215,6 @@
     <[int32]            [penalty_for_mistake]   [20]>
     <[int32]            [bonus_for_perfect_flight]   [60]>
 
-    <[tmvector3f]       [track_position]        [0 1.0 10000]
-    >
     <[tmvector3f]       [track_position]        [0 3.0 10000]
         <[bool]         [arrow]                 [true]>
     >
@@ -278,8 +263,8 @@
   <[string8][balloon_pop][Blue Balloons]
     <[string8]          [geometry_name]         [balloon_pop]>
     <[string8]          [physics_name]          [balloon_pop_blue]>
-    <[tmvector3d]       [contest_position]      [15  -1.25]>
-    <[float64]          [contest_rotation]      [140]>
+    <[tmvector3d]       [contest_position]      [15  -1.25 2]>
+    <[float64]          [starting_angle]        [90]>
     <[tmvector3d]       [contest_size]          [10 15 10]>
     <[int32]            [number_of_balloons]    [20]>
     <[float64]          [available_time]        [180]>
@@ -294,25 +279,19 @@
     <[string8][info_displayname]        [Burgfalken]>
     <[string8][info_country]            [Germany]>
     <[string8][info_region]             [BW]>
-    <[string8][info_description]        [Das Fluggelände der Modellfliegergruppe Burgfalken Urbach e.V. ##Panorama und Szenerie: Cornelius Munz ##Version: 1.0.0]>
+    <[string8][info_description]        [Airfield of the Burgfalken Urbach flying club e.V. ##Panorama: Cornelius Munz ##Version: 1.1.0]>
   >
   <[string8][scenery_info][de]
-    <[string8][info_displayname]        [Burgfalken]>]>
+    <[string8][info_displayname]        [Burgfalken]>
     <[string8][info_country]            [Deutschland]>
     <[string8][info_region]             [BW]>
-    <[string8][info_description]        [Das Fluggelände der Modellfliegergruppe Burgfalken Urbach e.V. ##Panorama und Szenerie: Cornelius Munz ##Version: 1.0.0]>
+    <[string8][info_description]        [Das Fluggelände der Modellfliegergruppe Burgfalken Urbach e.V. ##Panorama: Cornelius Munz ##Version: 1.1.0]>
   >
-  <[string8][scenery_info][en]
-    <[string8][info_displayname]        [Burgfalken]>]>
-    <[string8][info_country]            [Germany]>
-    <[string8][info_region]             [BW]>
-    <[string8][info_description]        [Airfield of the Burgfalken Urbach flying club e.V. ##Panorama and scenery: Cornelius Munz ##Version: 1.0.0]>
-  >
+ 
 
   
 
   // Height above sea level [m]
-
-  <[float64][heightoffset]    626.000000]>
+  <[float64][heightoffset] [303.00000]>
 
 >
