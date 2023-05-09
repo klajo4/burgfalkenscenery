@@ -1,6 +1,6 @@
 # Aerofly RC7 Scenery Burgfalken
 This is a fork of Cornelius Munz's repository "burgfalkenscenery".  
-Its purpose is, to add some proper collision objects.
+Its purpose is, to add some proper collision objects to this beautiful panorama.
 
 ## Remarks
 I've got Aerofly RC7 running on Windows.  
