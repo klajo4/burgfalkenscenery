@@ -8,14 +8,11 @@ Therefore the scenery is not tested/provided for RC8 or MacOS
 
 
 ## Install
-To use the scenery extract the following zip file into your scenery folder   
-of your local Aerofly RC installation:  
-https://github.com/klajo4/burgfalkenscenery/blob/master/scenery/rc7-burgfalken.zip
+To install the scenery, extract the following zip file   
+https://github.com/klajo4/burgfalkenscenery/blob/master/scenery/rc7-burgfalken.zip  
 
-
-#### Target file location Windows, RC7
-```C:\Benutzer\…..\Dokumente\aeroflyRC7\scenery``` (german)  
-```C:\Users\…..\Documents\aeroflyRC7\scenery```    (common)
+into the user-scenery folder of your local Aerofly RC7 installation  
+```C:\Benutzer\…..\Dokumente\aeroflyRC7\scenery``` 
 
 
 ## Update
