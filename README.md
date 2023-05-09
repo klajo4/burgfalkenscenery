@@ -21,16 +21,13 @@ If you have already installed an older version of the burgfalke scenery, you can
 	by https://github.com/klajo4/burgfalkenscenery/blob/master/scenery/raw/burgfalken.tsc
 	
 2.	```C:\Benutzer\…..\Dokumente\aeroflyRC7\scenery\burgfalken\burgfalken.tgc```   
-	by https://github.com/klajo4/burgfalkenscenery/blob/master/scenery/raw/burgfalken/burgfalken.tgc 
+	by https://github.com/klajo4/burgfalkenscenery/blob/master/scenery/raw/burgfalken/burgfalken.tgc  
+  
 
+After restarting Aerofly, you'll find the new/updated scenery in the user defined sceneries  
+..
 
-
-After restarting Aerofly, you'll find the new/updated scenery in the user defined sceneries
-
-
-
-
-# Version 1.1.0
+## Version 1.1.0:
 
 ## finished
 - Written a blender python script, to produce the required mqo file from blender scene.  
