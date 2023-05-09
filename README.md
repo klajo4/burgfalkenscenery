@@ -1,19 +1,20 @@
 # Aerofly RC7 Scenery Burgfalken
-This is a fork of Cornelius Munz's repository "burgfalkenscenery"
+This is a fork of Cornelius Munz's repository "burgfalkenscenery".  
 Its purpose is, to add some proper collision objects.
 
 ## Remarks
-I've got Aerofly RC7 running on Windows.
+I've got Aerofly RC7 running on Windows.  
 Therefore the scenery is not tested/provided for RC8 or MacOS
 
 
 ## Install
-To use the scenery extract the following zip file into your scenery folder of your Aerofly RC installation on your local PC:
+To use the scenery extract the following zip file into your scenery folder   
+of your Aerofly RC installation on your local PC:  
 https://github.com/klajo4/burgfalkenscenery/blob/master/scenery/rc7-burgfalken.zip
 
 
 ### Target file location Windows, RC7
-```C:\Benutzer\…..\Dokumente\aeroflyRC7\scenery``` (german)
+```C:\Benutzer\…..\Dokumente\aeroflyRC7\scenery``` (german)  
 ```C:\Users\…..\Documents\aeroflyRC7\scenery```    (common)
 
 
@@ -34,9 +35,10 @@ After restarting Aerofly, you'll find the new/updated scenery in the user define
 
 # Version 1.1.0
 
-## Finished
-- Written a blender python script, to produce the required mqo file from blender scene.
-  Writes a very simplyfied mqo format, since the mqo-to-tgc converter ignores most of the scene/object properties anyway.
+## finished
+- Written a blender python script, to produce the required mqo file from blender scene.  
+  Writes a very simplyfied mqo format, since the mqo-to-tgc converter ignores most   
+  of the scene/object properties anyway.
 - created CollisionObjects:
 	- Groundgrid (not perfect, needs refinement later)
 	- Some trees (not all, so far)
@@ -44,7 +46,7 @@ After restarting Aerofly, you'll find the new/updated scenery in the user define
 - Adjusted North direction and altitude 
 - Defined startpositions for aiplanes and gliders (with winsh).
 
-## To be done
+## to be done
 - Implement missing trees 
 - Define starting positions for Helis
 - Define positions for contests (Limbo, baloon..)
