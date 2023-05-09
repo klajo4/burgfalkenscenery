@@ -1,4 +1,5 @@
-# This is a fork of Cornelius Munz' repository "burgfalkenscenery"
+# Aerofly RC7 Scenery Burgfalken
+This is a fork of Cornelius Munz's repository "burgfalkenscenery"
 Its purpose is, to add some proper collision objects.
 
 ## Remarks
