@@ -15,14 +15,14 @@ into the user-scenery folder of your local Aerofly RC7/RC8 installation
 ## Update
 If you have already installed an older version of the burgfalke scenery, you can simply replace 2 files:  
 
-**RC7:
+**RC7:**
 1.	```C:\Benutzer\…..\Dokumente\aeroflyRC7\scenery\burgfalken.tsc```  
 	by https://github.com/klajo4/burgfalkenscenery/blob/master/scenery/raw/burgfalken.tsc  
 	
 2.  ```C:\Benutzer\…..\Dokumente\aeroflyRC7\scenery\burgfalken\burgfalken.tgc```   
 	by https://github.com/klajo4/burgfalkenscenery/blob/master/scenery/raw/burgfalken/burgfalken.tgc  
 
-**RC8:
+**RC8:**
 1.	```C:\Benutzer\…..\Dokumente\aeroflyRC8\scenery\burgfalken.tsc```  
 	by https://github.com/klajo4/burgfalkenscenery/blob/master/scenery/raw/burgfalken.tsc  
 	
