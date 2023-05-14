@@ -1,0 +1,1 @@
+"C:\AeroflyTools\Aerofly RC 8 Content Converter\bin64\aerofly_rc_8_content_converter.exe" content_converter_config.tmc
