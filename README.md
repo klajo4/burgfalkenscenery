@@ -29,12 +29,14 @@ If you have already installed an older version of the burgfalke scenery, you can
 2. 	```C:\Benutzer\…..\Dokumente\aeroflyRC8\scenery\burgfalken\burgfalken.tmb```   
 	by https://github.com/klajo4/burgfalkenscenery/blob/master/scenery/raw/burgfalken/burgfalken.tmb  
 	
+	 
 After restarting Aerofly, you'll find the new/updated scenery in the user defined sceneries  
-..
+  
+  
 
 ## Version 1.1.0:
 
-## finished
+**finished**
 - Written a blender python script, to produce the required mqo file from blender scene.  
   Writes a very simplyfied mqo format, since the mqo-to-tgc converter ignores most   
   of the scene/object properties anyway.
@@ -43,11 +45,11 @@ After restarting Aerofly, you'll find the new/updated scenery in the user define
 	- Some trees (not all, so far)
 	- Huts and hedges
 - Adjusted north direction and altitude 
-- Defined startpositions for aiplanes and gliders (with winsh).
+- Defined startpositions for airplanes and gliders (with winsh).
 
-## to be done
+**to be done**
 - Implement missing trees 
-- Define starting positions for Helis
+- Define starting positions for helis
 - Define positions for contests (Limbo, baloon..)
 - Refine groundgrid (optional)
 
