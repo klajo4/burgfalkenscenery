@@ -1,4 +1,6 @@
 *.blend1
 *.exe
 *.lic
+*_temp.blend
 convert_rc7*/
+convert_rc8*/
