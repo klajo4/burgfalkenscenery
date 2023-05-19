@@ -2,5 +2,11 @@
 *.exe
 *.lic
 *_temp.blend
-convert_rc7*/
-convert_rc8*/
+#convert_rc7*/
+*.mqo
+*.tgc
+#convert_rc8*/
+*.tgi
+*.tmb
+*.tmb.txt
+*.log
