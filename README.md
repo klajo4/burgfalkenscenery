@@ -3,6 +3,8 @@ This is a fork of Cornelius Munz's repository "burgfalkenscenery".
 Its purpose is, to add some proper collision objects to this beautiful panorama.
 
 
+![picture of sceney](/blender/resources/scene.jpg)
+
 
 ## Install
 **RC7:**
