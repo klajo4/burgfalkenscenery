@@ -13,7 +13,7 @@ import os
 
 
 #path =  os.path.splitext(bpy.data.filepath)[0] + ".mqo"
-path = "../convert_rc7/burgfalken.mqo"
+path = bpy.path.abspath("//..") + "/convert_rc7/burgfalken.mqo"
 
 scale = 100.0
  

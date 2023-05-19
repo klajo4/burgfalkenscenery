@@ -13,21 +13,9 @@
     <[float64]      [radius]        [50.0]>
     <[string8]      [typeflag]      [airplane]>
   >
-
-
-//STARTPOSITION HELI
-
-  <[string8][startposition][6]
-    <[int32]      [sphere]    [ 0 ]>
-    <[tmvector3d]   [aircraft]      [ 0.0 7.0  -10000.000 ]> 
-    <[float64]    [angle]     [ -150.0 ]>
-    <[float64]    [radius]    [ 1.1 ]>
-    <[string8]    [typeflag]  [heli]>
-  >
   
 
-// STARTPOSITION GLIDER (Handstart)
-
+// STARTPOSITION GLIDER (throw)
 <[string8][startposition][0]
     <[int32]        [sphere]        [0]>
     <[tmvector3d]   [aircraft]      [ 2.0 7.0 -10000.000 ]> 
@@ -37,22 +25,55 @@
     <[string8]      [launcher]      [launcher]>
   >
 
-// STARTPOSITION GLIDER AND WINCH 
 
+// STARTPOSITION GLIDER AND WINCH (to east)
   <[string8][startposition][1]
     <[int32]      [sphere]         [ 0 ]>    
-    <[tmvector3d]   [aircraft]      [ 15.0 5.0 -10000.000 ]> 
-    <[float64]      [angle]        [ -150.0 ]>
+    <[tmvector3d]   [aircraft]     [20.0 3.0 -10000.000 ]> 
+    <[float64]      [angle]        [-150.0 ]>
     <[float64]    [radius]         [ 6 ]>
-    <[string8]      [typeflag]     [glider]>	
+    <[string8]      [typeflag]     [glider]>
+	
     <[string8]      [winch]        [winch]
-    <[tmvector3d]   [position]   [ 20 10 -10000.000 ]>
+      <[tmvector3d]   [position]   [ 20.0 10.0 -10000.000 ]>
     >
     <[string8]      [pulley]         [pulley]
       <[tmvector3d]   [position]      [ -80.0 50.0 -10000.000 ]>
       <[float64]      [angle]         [ -120 ]>
     >
   >
+  
+// STARTPOSITION GLIDER AND WINCH (to west)  
+  <[string8][startposition][2]
+    <[int32]      [sphere]         [ 0 ]>    
+    <[tmvector3d]   [aircraft]     [-40.0 22.0 -10000.000 ]> 
+    <[float64]      [angle]        [0.0 ]>
+    <[float64]    [radius]         [ 6 ]>
+    <[string8]      [typeflag]     [glider]>
+	
+    <[string8]      [winch]        [winch]
+      <[tmvector3d]   [position]   [ 17 10 -10000.000 ]>
+    >
+    <[string8]      [pulley]         [pulley]
+      <[tmvector3d]   [position]      [ 20 6 -10000.000 ]>
+      <[float64]      [angle]         [ -120 ]>
+    >
+  >
+  
+  
+  
+//STARTPOSITION HELI
+
+  <[string8][startposition][0v]
+    <[int32]      [sphere]    [ 0 ]>
+    <[tmvector3d] [aircraft]  [ 0.0 5.0  -10000.000 ]> 
+    <[float64]    [angle]     [ -80.0 ]>
+    <[float64]    [radius]    [ 1.1 ]>
+    <[string8]    [typeflag]  [heli]>
+  >
+  
+
+
 
 
 //PHOTOSCENERY 10
@@ -248,8 +269,8 @@
     <[float64]          [limbo_height]          [5]>
     <[float64]          [limbo_heightstep]      [0.25]>
     <[float64]          [limbo_width]           [6]>
-    <[tmvector3d]       [limbo_position]        [15.0 3.0 -10000]>
-    <[float64]          [limbo_direction]       [150]>
+    <[tmvector3d]       [limbo_position]        [9.0 1.0 -10000]>
+    <[float64]          [limbo_direction]       [100]>
     <[int32]            [number_of_turns]       [17]>
     <[float64]          [available_time]        [300]>
     <[float64]          [penalty_for_miss]      [10]>
@@ -279,13 +300,13 @@
     <[string8][info_displayname]        [Burgfalken]>
     <[string8][info_country]            [Germany]>
     <[string8][info_region]             [BW]>
-    <[string8][info_description]        [Airfield of the Burgfalken Urbach flying club e.V. ##Panorama: Cornelius Munz ##Version: 1.1.0]>
+    <[string8][info_description]        [Airfield of the Burgfalken Urbach flying club e.V. ##Panorama: Cornelius Munz#Terrain: Klaus Johannigmann#Version: 1.2.0]>
   >
   <[string8][scenery_info][de]
     <[string8][info_displayname]        [Burgfalken]>
     <[string8][info_country]            [Deutschland]>
     <[string8][info_region]             [BW]>
-    <[string8][info_description]        [Das Fluggelände der Modellfliegergruppe Burgfalken Urbach e.V. ##Panorama: Cornelius Munz ##Version: 1.1.0]>
+    <[string8][info_description]        [Das Fluggelände der Modellfliegergruppe Burgfalken Urbach e.V. ##Panorama: Cornelius Munz#Terrain: Klaus Johannigmann#Version: 1.2.0]>
   >
  
 

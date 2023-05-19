@@ -1,0 +1,12 @@
+*.blend1
+*.exe
+*.lic
+*_temp.blend
+#convert_rc7*/
+*.mqo
+*.tgc
+#convert_rc8*/
+*.tgi
+*.tmb
+*.tmb.txt
+*.log
