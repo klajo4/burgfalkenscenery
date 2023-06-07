@@ -1,4 +1,10 @@
 
+## Version 1.3.0:
+
+**finished**
+- retouched most artifacts in the panorama
+  
+  
 ## Version 1.2.0:
 
 **finished**
@@ -10,12 +16,8 @@
 **to be done**
 - Implement missing trees 
 - Refine groundgrid (optional)
-
-
-
-
-
-
+  
+  
 ## Version 1.1.0:
 
 **finished**
