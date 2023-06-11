@@ -81,8 +81,8 @@
   <[string8][photoscene][burgfalken]
     <[string8][sphere][0]
       <[string8]      [textures]       [burgfalken/burgfalken]>
-      <[int32]        [tilex]          [8]>     // must match af5-createpano option
-      <[int32]        [tiley]          [8]>     // must match af5-createpano option
+      <[int32]        [tilex]          [16]>     
+      <[int32]        [tiley]          [8]>     
       <[float64]      [radius]         [5000]>          // photo sphere radius
       <[tmvector3d]   [3ds_angles]     [0.0 0.0 163.0]>  // rotation of photo sphere in degrees
       <[tmvector3d]   [sphereposition] [0.00 0.00 0.00]>  // position of photo sphere
@@ -300,13 +300,13 @@
     <[string8][info_displayname]        [Burgfalken]>
     <[string8][info_country]            [Germany]>
     <[string8][info_region]             [BW]>
-    <[string8][info_description]        [Airfield of the Burgfalken Urbach flying club e.V. ##Panorama: Cornelius Munz#Terrain: Klaus Johannigmann#Version: 1.2.0]>
+    <[string8][info_description]        [Airfield of the Burgfalken Urbach flying club e.V. ##Panorama: Cornelius Munz#Terrain: Klaus Johannigmann#Version: 1.3.0]>
   >
   <[string8][scenery_info][de]
     <[string8][info_displayname]        [Burgfalken]>
     <[string8][info_country]            [Deutschland]>
     <[string8][info_region]             [BW]>
-    <[string8][info_description]        [Das Fluggelände der Modellfliegergruppe Burgfalken Urbach e.V. ##Panorama: Cornelius Munz#Terrain: Klaus Johannigmann#Version: 1.2.0]>
+    <[string8][info_description]        [Das Fluggelände der Modellfliegergruppe Burgfalken Urbach e.V. ##Panorama: Cornelius Munz#Terrain: Klaus Johannigmann#Version: 1.3.0]>
   >
  
 

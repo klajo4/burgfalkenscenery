@@ -23,23 +23,11 @@ into the user-scenery folder of your local Aerofly RC8 installation
 
 
 ## Update
-If you have already installed an older version of the burgfalke scenery, you can simply replace 2 files:  
+Same as Install, because all textures have changed in Versin 1.3.0. 
+Just confirm overwriting the existing files.
 
-**RC7:**
-1.	```C:\Benutzer\…..\Dokumente\aeroflyRC7\scenery\burgfalken.tsc```  
-	by https://github.com/klajo4/burgfalkenscenery/blob/master/scenery/raw_rc7/burgfalken.tsc  
-	
-2.  ```C:\Benutzer\…..\Dokumente\aeroflyRC7\scenery\burgfalken\burgfalken.tgc```   
-	by https://github.com/klajo4/burgfalkenscenery/blob/master/scenery/raw_rc7/burgfalken/burgfalken.tgc  
 
-**RC8:**
-1.	```C:\Benutzer\…..\Dokumente\aeroflyRC8\scenery\burgfalken.tsc```  
-	by https://github.com/klajo4/burgfalkenscenery/blob/master/scenery/raw_rc8/burgfalken.tsc  
-	
-2. 	```C:\Benutzer\…..\Dokumente\aeroflyRC8\scenery\burgfalken\burgfalken.tmb```   
-	by https://github.com/klajo4/burgfalkenscenery/blob/master/scenery/raw_rc8/burgfalken/burgfalken.tmb  
-	
-	 
+
 After restarting Aerofly, you'll find the new/updated scenery in the user defined sceneries  
   
   
