@@ -9,14 +9,14 @@ Its purpose is, to add some proper collision objects to this beautiful panorama.
 ## Install
 **RC7:**  
 To install the scenery, extract the following zip file   
-https://github.com/klajo4/burgfalkenscenery/blob/master/scenery/rc7-burgfalken.zip  
+https://github.com/klajo4/burgfalkenscenery/releases/download/v_1.3.0.1/rc7-burgfalken.zip
 
 into the user-scenery folder of your local Aerofly RC7 installation  
 ```C:\Benutzer\…..\Dokumente\aeroflyRC7\scenery``` 
 
 **RC8:**  
 To install the scenery, extract the following zip file   
-https://github.com/klajo4/burgfalkenscenery/blob/master/scenery/rc8-burgfalken.zip  
+https://github.com/klajo4/burgfalkenscenery/releases/download/v_1.3.0.1/rc8-burgfalken.zip
 
 into the user-scenery folder of your local Aerofly RC8 installation  
 ```C:\Benutzer\…..\Dokumente\aeroflyRC8\scenery``` 
