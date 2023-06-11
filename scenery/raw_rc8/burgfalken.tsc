@@ -81,8 +81,8 @@
   <[string8][photoscene][burgfalken]
     <[string8][sphere][0]
       <[string8]      [textures]       [burgfalken/burgfalken]>
-      <[int32]        [tilex]          [8]>     // must match af5-createpano option
-      <[int32]        [tiley]          [8]>     // must match af5-createpano option
+      <[int32]        [tilex]          [16]>     
+      <[int32]        [tiley]          [8]>     
       <[float64]      [radius]         [5000]>          // photo sphere radius
       <[tmvector3d]   [3ds_angles]     [0.0 0.0 163.0]>  // rotation of photo sphere in degrees
       <[tmvector3d]   [sphereposition] [0.00 0.00 0.00]>  // position of photo sphere
